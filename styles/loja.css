@@ -1,0 +1,130 @@
+@import url(https://fonts.google.com/specimen/JetBrains+Mono);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: url('/img/test03.png') no-repeat center center fixed;
+    background-size: cover;
+    margin-top: 1px; /* Adicionando margem ao topo do corpo */
+}
+
+.banner {
+    margin-top: 30px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.banner-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* jogos card */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.product-card {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card h2 {
+    font-size: 12px;
+    margin: 10px 0;
+    color: white;
+}
+
+.product-card .discount {
+    color: #ff5733;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.product-card .price {
+    text-decoration: line-through;
+    color: #999;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.product-card .final-price {
+    color: #27ae60;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.product-card button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.product-card button:hover {
+    background-color: #555;
+}
+
+/* tentando responsividade */
+@media (max-width: 768px) {
+    .product-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 576px) {
+    .product-container {
+        padding: 10px;
+    }
+    
+    .product-card {
+        padding: 10px;
+    }
+    
+    .product-card h2 {
+        font-size: 14px;
+    }
+    
+    .product-card .discount,
+    .product-card .price,
+    .product-card button {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 420px) {
+    .product-container {
+        gap: 10px;
+    }
+}

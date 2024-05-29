@@ -1,0 +1,129 @@
+body {
+    padding-top: 50px; /* Ajusta o espaço para o menu fixo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('/img/test03.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+}
+
+/* Wrapper styles */
+.wrapper {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+/* Form title */
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+
+/* Input box styles */
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.input-box i {
+    position: absolute;
+    right: 7px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+/* Remember me and forgot password link */
+.wrapper .lembrar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.lembrar label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.lembrar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.lembrar a:hover {
+    text-decoration: underline;
+}
+
+/* Submit button */
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Register link */
+.wrapper .registro-link,
+.login-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 20px;
+}
+
+.registro-link p a,
+.login-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.registro-link p a:hover,
+.login-link p a:hover {
+    text-decoration: underline;
+}
+
+/* posicao do check do CPF, se for valido ele vai aparecer um icone, isso e um ajuste do icone*/
+#cpfValidIcon {
+    right: 35px;
+}
+
+/* centraliza a mensagem de erro */
+#mensagemErro {
+    text-align: center;
+}
