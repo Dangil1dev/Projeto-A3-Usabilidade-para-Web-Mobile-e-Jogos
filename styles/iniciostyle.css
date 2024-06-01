@@ -1,0 +1,167 @@
+#destaques {
+    text-align: center;
+    background-color: rgba(30, 39, 64, 0.997);
+    width: 1000px;
+    height: 350px;
+    font-family: Arial;
+    font-size: 16px;
+    color: white;
+    border: 2px solid black ;
+}
+
+.container{
+    display: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.imgprincipal{
+    float: left;
+    width: 530px;
+    height: 346px;
+}
+
+.imgprincipal:hover{
+    opacity: 0.8;
+}
+
+
+.imgicons{
+    float: right;
+    padding: 1px;
+    margin-right: 10px;
+}
+
+.imgcs{
+    opacity: 0.5;
+    width: 160px;
+    height: 90px;
+}
+.imgcs:hover{
+    opacity: 1;
+    width: 166px;
+    height: 96px;
+}
+
+.tagbtn{
+  width: 73px;
+  height: 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  font-size: 10px;
+  color: #91C9FF;
+}
+
+.containerbtn{
+  display: flex;   
+  align-items: center; 
+  justify-content: center;
+  padding: 5px;
+}
+
+p{
+    margin-right: 250px;
+}
+
+
+
+
+#ofertas {
+    background-color: rgba(30, 39, 64, 0.997);
+    padding: 5px;
+    width: 1000px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.textoofertasprincipal{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.textoofertas{
+    text-align: center;
+    font-size: 7px;
+    color: gray;
+    
+}
+
+.imgofertas{
+    width: 240px;
+    height: 240px;
+}
+
+#categorias{
+    background-color: rgba(30, 39, 64, 0.997);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 1000px;
+    height: 195px;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.block{
+    background-image: url(../img/test1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    width: 180px;
+    height: 170px;
+    text-align: center;
+    padding-top: 75px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style:italic;
+    
+}
+.block:hover{
+    width: 183px;
+    height: 173px;
+    opacity: 1;
+}
+
+
+#navegue{
+    background-color: rgba(30, 39, 64, 0.997);
+    padding-top: 23px;
+    width: 1000px;
+    height: 100px;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbtn{
+  width: 170px;
+  height: 50px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  font-size: 15px;
+  color: #91C9FF;
+}
+
+.navbtn:hover{
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+    width: 180px;
+    height: 60px;
+}
+
+
