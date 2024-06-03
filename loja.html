@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/test.css">
     <link rel="stylesheet" href="/styles/menu.css">
+    <script src="scripts/banner.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Loja de Jogos</title>
 </head>
@@ -28,7 +29,24 @@
         </header>
     
         <div class="banner">
-            <img class="banner-img" src="https://assets.nuuvem.com/image/upload/t_quality_80/v1/highlights/6602f3e0e4c0e500175d925d/apquqqq4hgqnuf3i9f2p.jpg" alt="Banner Image">
+            <div class="banner-slides">
+                <div class="slide">
+                    <img class="banner-img" src="/img/loja-icons/ghost-banner.png" alt="Banner Image 1">
+                </div>
+                <div class="slide">
+                    <img class="banner-img" src="/img/loja-icons/gtav-banner.png" alt="Banner Image 2">
+                </div>
+                <div class="slide">
+                    <img class="banner-img" src="/img/loja-icons/cod-black-banner.png" alt="Banner Image 3">
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
         </div>
     
         <div class="product-container">
@@ -159,6 +177,36 @@
                 <p class="discount">70% OFF</p>
                 <p class="price">R$ 149,99</p>
                 <p class="final-price">R$ 44,99</p>
+                <button>Comprar</button>
+            </div>
+
+            <!-- Produto 14 -->
+            <div class="product-card">
+                <img src="/img/loja-icons/ghost.png" alt="Ghost of Tsushima Director's Cut">
+                <h2>Ghost of Tsushima Director's Cut</h2>
+                <p class="discount">11% OFF</p>
+                <p class="price">R$ 249,99</p>
+                <p class="final-price">R$ 221,99</p>
+                <button>Comprar</button>
+            </div>
+
+            <!-- Produto 15  -->
+            <div class="product-card">
+                <img src="/img/loja-icons/gtav.png" alt="Grand Theft Auto V: Premium Online Edition">
+                <h2>Grand Theft Auto V: Premium Online Edition</h2>
+                <p class="discount">50% OFF</p>
+                <p class="price">R$ 82,42</p>
+                <p class="final-price">R$ 41,21</p>
+                <button>Comprar</button>
+            </div>
+
+            <!-- Produto 16 -->
+            <div class="product-card">
+                <img src="/img/loja-icons/mine.png" alt="Minecraft: Java and Bedrock Deluxe Collection">
+                <h2>Minecraft: Java and Bedrock Deluxe Collection</h2>
+                <p class="discount">50% OFF</p>
+                <p class="price">R$ 199,00</p>
+                <p class="final-price">R$ 99,50</p>
                 <button>Comprar</button>
             </div>
         </div>
