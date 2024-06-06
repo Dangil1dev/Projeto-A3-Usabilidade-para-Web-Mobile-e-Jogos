@@ -5,13 +5,13 @@ function showSlides() {
     let slides = document.getElementsByClassName("slide");
     let dots = document.getElementsByClassName("dot");
     if (slideIndex >= slides.length) {
-        slideIndex = 0;
+        slideIndex = 0; // volta ao primeiro slide
     }
     if (slideIndex < 0) {
-        slideIndex = slides.length - 1;
+        slideIndex = slides.length - 1; // Vai ate o ultimo slide
     }
     for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+        slides[i].style.display = "none"; // esconde slides
     }
     for (let i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
@@ -21,14 +21,14 @@ function showSlides() {
 }
 
 function plusSlides(n) {
-    slideIndex += n;
-    showSlides();
-    resetInterval();
+    slideIndex += n; // muda o indice do slide
+    showSlides(); // atualiza o slide
+    resetInterval(); // reseta toda rocao de intervalo
 }
 
 function currentSlide(n) {
-    slideIndex = n - 1;
-    showSlides();
+    slideIndex = n - 1; // avanca para o próximo slide.
+    showSlides(); // atualiza o slide
     resetInterval();
 }
 

@@ -6,16 +6,23 @@
     <link rel="stylesheet" href="/styles/global.css">
     <link rel="stylesheet" href="styles/menu.css">
     <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="/styles/footer.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Login</title>
 </head>
 <body>
+
     <header>
         <nav>
             <div class="nav-logo">
-                <a href="login.html">Logotemp</a>
+                <img src="/img/game-icon.png" alt="">
+                <a href="login.html">Gaming Store
+                </a>
             </div>
-            <ul class="nav-links">
+            <div class="nav-menu-icon" id="navMenuIcon">
+                <i class='bx bx-menu'></i>
+            </div>
+            <ul class="nav-links" id="navLinks">
                 <li><a href="inicio.html">Início</a></li>
                 <li><a href="loja.html">Loja</a></li>
                 <li><a href="#">Comunidade</a></li>
@@ -50,6 +57,12 @@
             <div id="mensagemErro"></div>
         </form>
     </div>
+
     <script src="scripts/loginScript.js"></script>
+    <script>
+        document.getElementById('navMenuIcon').addEventListener('click', function() {
+            document.getElementById('navLinks').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
