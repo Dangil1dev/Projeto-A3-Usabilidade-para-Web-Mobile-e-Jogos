@@ -1,7 +1,9 @@
+/* Ajusta o espaço para o menu*/
 body {
-    padding-top: 50px; /* Ajusta o espaço para o menu fixo */
+    padding-top: 50px; 
 }
 
+/* cabecalho */
 header {    
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
@@ -10,7 +12,6 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
-    
 }
 
 nav {
@@ -22,6 +23,17 @@ nav {
     padding: 0 20px;
 }
 
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 40px; /* ajuste o tamanho conforme necessário */
+    margin-right: 10px; /* ajuste o espaçamento conforme necessário */
+}
+
+/* logotipo */
 .nav-logo a {
     color: #fff;
     text-decoration: none;
@@ -29,6 +41,15 @@ nav {
     font-weight: bold;
 }
 
+/* icon */
+.nav-menu-icon {
+    display: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* links de navegacao */
 .nav-links {
     list-style: none;
     display: flex;
@@ -45,10 +66,12 @@ nav {
     transition: color 0.3s;
 }
 
+/* Hover para os links de nav */
 .nav-links a:hover {
-    color: #ff9;
+    color: #ff5733;
 }
 
+/* link de login */
 .nav-login a {
     color: #fff;
     text-decoration: none;
@@ -59,7 +82,39 @@ nav {
     transition: background-color 0.3s, color 0.3s;
 }
 
+/* Hover para o link de login */
 .nav-login a:hover {
     background-color: #fff;
-    color: #000;
+    color: #fc0000;
+}
+
+/* tentativa de responsividade */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .nav-menu-icon {
+        display: block;
+    }
+
+    .nav-login a:hover {
+        background-color: #fff;
+        color: #000;
+    }
 }

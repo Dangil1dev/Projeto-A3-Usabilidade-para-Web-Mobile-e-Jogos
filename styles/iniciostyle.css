@@ -9,7 +9,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.container{
+.container {
     display: center;
     display: flex;
     flex-direction: column;
@@ -17,53 +17,54 @@
     margin-top: 500px;
 }
 
-.imgprincipal{
+.imgprincipal {
     float: left;
     width: 530px;
     height: 349px;
 }
 
-.imgprincipal:hover{
+.imgprincipal:hover {
     opacity: 0.8;
 }
 
 
-.imgicons{
+.imgicons {
     float: right;
     padding: 1px;
     margin-right: 10px;
 }
 
 .imgcs{
-    opacity: 0.8;
+    opacity: 0.5;
     width: 160px;
     height: 90px;
 }
-.imgcs:hover{
+
+.imgcs:hover {
     opacity: 1;
     width: 166px;
     height: 96px;
 }
 
-.tagbtn{
-  width: 73px;
-  height: 30px;
-  cursor: pointer;
-  background: transparent;
-  border: 1px solid #91C9FF;
-  outline: none;
-  font-size: 10px;
-  color: #91C9FF;
+.tagbtn {
+    width: 73px;
+    height: 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    font-size: 10px;
+    color: #91C9FF;
 }
 
-.containerbtn{
-  display: flex;   
-  align-items: center; 
-  justify-content: center;
-  padding: 5px;
+.containerbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
 }
 
-p{
+p {
     margin-right: 250px;
 }
 
@@ -78,25 +79,26 @@ p{
     text-align: center;
 }
 
-.textoofertasprincipal{
+.textoofertasprincipal {
     text-align: center;
     font-size: 16px;
     color: white;
 }
-.textoofertas{
+
+.textoofertas {
     text-align: center;
     font-size: 7px;
     color: gray;
-    
+
 }
 
-.imgofertas{
+.imgofertas {
     width: 240px;
     height: 240px;
 }
 
 #categorias{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(30, 39, 64, 0.997);
     padding-top: 10px;
     padding-bottom: 10px;
     width: 1000px;
@@ -110,7 +112,7 @@ p{
 
 
 
-.block{
+.block {
     background-image: url(../img/test1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -120,12 +122,13 @@ p{
     text-align: center;
     padding-top: 75px;
     color: white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
-    font-style:italic;
-    
+    font-style: italic;
+
 }
-.block:hover{
+
+.block:hover {
     width: 183px;
     height: 173px;
     opacity: 1;
@@ -133,7 +136,7 @@ p{
 
 
 #navegue{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(30, 39, 64, 0.997);
     padding-top: 23px;
     width: 1000px;
     height: 100px;
@@ -144,22 +147,20 @@ p{
     justify-content: space-around;
 }
 
-.navbtn{
-  width: 170px;
-  height: 50px;
-  cursor: pointer;
-  background: transparent;
-  border: 1px solid #91C9FF;
-  outline: none;
-  font-size: 15px;
-  color: #91C9FF;
+.navbtn {
+    width: 170px;
+    height: 50px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    font-size: 15px;
+    color: #91C9FF;
 }
 
-.navbtn:hover{
+.navbtn:hover {
     transition: 1s ease-in-out;
     background: #4F95DA;
     width: 180px;
     height: 60px;
 }
-
-

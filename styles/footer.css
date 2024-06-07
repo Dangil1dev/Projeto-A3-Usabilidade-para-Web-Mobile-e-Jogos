@@ -1,0 +1,122 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #111;
+    color: #fff;
+    border-top: 5px solid #ff5733;
+    text-align: center;
+    position: relative;
+}
+
+.footer-recommendations {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* espacamento entre o bloco de recomendacoes e os links de rodape */
+}
+
+.footer-recommendations p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px; /* espacamento entre o texto e os links */
+}
+
+.footer-recommendations a {
+    display: inline-block;
+    background-color: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px; /* espacamento entre os links */
+    transition: background-color 0.3s ease;
+}
+
+.footer-recommendations a:hover {
+    background-color: #fe3b00;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-links ul li {
+    margin: 0 15px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-links ul li a:hover {
+    color: #ff5733;
+}
+
+.footer-links ul li a i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.footer-info {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-extras {
+    margin-top: 20px;
+}
+
+.footer-extras a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.footer-extras a:hover {
+    color: #ff5733;
+}
+
+.footer-extras a i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.footer-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 5px;
+    background-color: #ff5733;
+    border-radius: 5px;
+}
+
+.footer-container::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background: url('/img/game-icon.png') no-repeat center center;
+    background-size: contain;
+    animation: bounce 2s infinite;
+}

@@ -10,14 +10,20 @@
     <title>Tela de Registro</title>
 </head>
 <body>
+
     <header>
         <nav>
             <div class="nav-logo">
-                <a href="login.html">Logotemp</a>
+                <img src="/img/game-icon.png" alt="">
+                <a href="login.html">Gaming Store
+                </a>
             </div>
-            <ul class="nav-links">
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Loja</a></li>
+            <div class="nav-menu-icon" id="navMenuIcon">
+                <i class='bx bx-menu'></i>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="inicio.html">Início</a></li>
+                <li><a href="loja.html">Loja</a></li>
                 <li><a href="#">Comunidade</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Suporte</a></li>
@@ -27,6 +33,7 @@
             </div>
         </nav>
     </header>
+
     <div class="wrapper">
         <form id="registerForm" action="#">
             <h1>Registro</h1>
@@ -62,6 +69,7 @@
             <div id="mensagemErro"></div>
         </form>
     </div>
+    
     <script src="scripts/registerScript.js"></script>
 </body>
 </html>
