@@ -98,12 +98,12 @@ p {
 }
 
 #categorias{
-    background-color: rgba(30, 39, 64, 0.997);
+    background-color: rgba(255, 255, 255, 0.1);
     padding-top: 10px;
     padding-bottom: 10px;
     width: 1000px;
     height: 195px;
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -136,15 +136,16 @@ p {
 
 
 #navegue{
-    background-color: rgba(30, 39, 64, 0.997);
+    background-color: rgba(255, 255, 255, 0.1);
     padding-top: 23px;
     width: 1000px;
     height: 100px;
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 
 .navbtn {
