@@ -1,5 +1,8 @@
+@import url(https://fonts.google.com/specimen/JetBrains+Mono);
+
 body {
-    padding-top: 50px; /* Ajusta o espaço para o menu fixo */
+    padding-top: 50px;
+    /* Ajusta o espaço para o menu fixo */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,13 +10,15 @@ body {
     background: url('/img/test03.png') no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh; 
+    height: 100vh;
 }
 
 /**/
 .wrapper {
-    width: 80%; /* Largura relativa */
-    max-width: 420px; /* Largura máxima */
+    width: 80%;
+    /* Largura relativa */
+    max-width: 420px;
+    /* Largura máxima */
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
@@ -37,15 +42,19 @@ body {
 /* ajustando posicoes da box e icones */
 .input-box {
     position: relative;
-    width: 100%; 
-    height: 50px; 
-    margin: 30px 0; /*altura*/
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    /*altura*/
 }
 
 .input-box input {
-    width: 100%; /*largura da box*/
-    height: 100%; /*altura da box*/
-    background-color: transparent; /*deixa transparente*/
+    width: 100%;
+    /*largura da box*/
+    height: 100%;
+    /*altura da box*/
+    background-color: transparent;
+    /*deixa transparente*/
     border: none;
     outline: none;
     border: 2px solid rgba(255, 255, 255, .2);

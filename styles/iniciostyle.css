@@ -34,7 +34,7 @@
     margin-right: 10px;
 }
 
-.imgcs{
+.imgcs {
     opacity: 0.5;
     width: 160px;
     height: 90px;
@@ -97,7 +97,7 @@ p {
     height: 240px;
 }
 
-#categorias{
+#categorias {
     background-color: rgba(255, 255, 255, 0.1);
     padding-top: 10px;
     padding-bottom: 10px;
@@ -135,7 +135,7 @@ p {
 }
 
 
-#navegue{
+#navegue {
     background-color: rgba(255, 255, 255, 0.1);
     padding-top: 23px;
     width: 1000px;
