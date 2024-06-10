@@ -13,15 +13,13 @@
 .footer-recommendations {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
-    /* espacamento entre o bloco de recomendacoes e os links de rodape */
+    margin-bottom: 20px;/* espacamento entre o bloco de recomendacoes e os links de rodape */
 }
 
 .footer-recommendations p {
     font-size: 20px;
     font-weight: bold;
-    margin-right: 10px;
-    /* espacamento entre o texto e os links */
+    margin-right: 10px;/* espacamento entre o texto e os links */
 }
 
 .footer-recommendations a {
@@ -32,8 +30,7 @@
     font-size: 16px;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-right: 10px;
-    /* espacamento entre os links */
+    margin-right: 10px;/* espacamento entre os links */
     transition: background-color 0.3s ease;
 }
 
