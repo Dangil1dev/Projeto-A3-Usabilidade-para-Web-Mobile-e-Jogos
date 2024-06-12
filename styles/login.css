@@ -1,9 +1,8 @@
 @import url(https://fonts.google.com/specimen/JetBrains+Mono);
 
 body {
-    padding-top: 50px;
-    /* Ajusta o espaço para o menu fixo */
-    display: flex;
+    padding-top: 50px; /* */
+    display: flex; /* layout */
     justify-content: center;
     align-items: center;
     min-height: 100vh;
