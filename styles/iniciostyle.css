@@ -1,3 +1,4 @@
+/* container de destaques */
 #destaques {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.1);
@@ -9,6 +10,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+/* container principal */
 .container {
     display: center;
     display: flex;
@@ -18,6 +20,7 @@
     padding-top: 150px;
 }
 
+/* imagem pricipal dos destaques */
 .imgprincipal {
     float: left;
     width: 530px;
@@ -28,10 +31,11 @@
     opacity: 0.8;
 }
 
-.ajuste{
+.precoeicons{
     padding-right: 110px;
 }
 
+/* icones de plataformas */
 .imgicons {
     float: right;
     padding: 1px;
@@ -40,6 +44,7 @@
     padding-bottom: 10px;
 }
 
+/* 4 imagens do cs (futuramente de mais jogos) */
 .imgcs {
     opacity: 0.5;
     width: 160px;
@@ -52,6 +57,7 @@
     height: 96px;
 }
 
+/* botão de preço e de tags de jogo */
 .tagbtn {
     width: 73px;
     height: 30px;
@@ -62,18 +68,18 @@
     font-size: 10px;
     color: #91C9FF;
 }
-
+/* container para as tags ficarem alinhadas */
 .containerbtn {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 5px;
 }
-
+/* para o gratuito para jogar ir para lateral */
 p {
     margin-right: 250px;
 }
-
+/* container de ofertas */
 #ofertas {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 5px;
@@ -84,25 +90,25 @@ p {
     border: 1px solid rgba(255, 255, 255, 0.2);
     text-align: center;
 }
-
+/* texto principal das ofertas */
 .textoofertasprincipal {
     text-align: center;
     font-size: 16px;
     color: white;
 }
-
+/* texto secundario das ofertas */
 .textoofertas {
     text-align: center;
     font-size: 7px;
     color: gray;
 
 }
-
+/* padrão de imagens das ofertas */
 .imgofertas {
     width: 240px;
     height: 240px;
 }
-
+/* container de categorias */
 #categorias {
     background-color: rgba(255, 255, 255, 0.1);
     padding-top: 10px;
@@ -117,7 +123,7 @@ p {
 }
 
 
-
+/* faz o bloquinho das categorias  */
 .block {
     background-image: url(../img/test1.jpg);
     background-repeat: no-repeat;
@@ -140,7 +146,7 @@ p {
     opacity: 1;
 }
 
-
+/* container de uma barra de navegação secundaria*/
 #navegue {
     background-color: rgba(255, 255, 255, 0.1);
     padding-top: 23px;
@@ -153,7 +159,7 @@ p {
     justify-content: space-around;
     margin-bottom: 30px;
 }
-
+/* botoes da barra de navegação secundaria */
 .navbtn {
     width: 170px;
     height: 50px;
