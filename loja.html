@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="/styles/loja.css">
     <link rel="stylesheet" href="/styles/menu.css">
     <link rel="stylesheet" href="/styles/footer.css">
-    <script defer src="scripts/banner.js"></script>
+    <script defer src="/scripts/banner.js"></script>
+
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Gaming Store</title>
 </head>
@@ -40,16 +41,15 @@
     <div class="banner">
         <div class="banner-slides">
             <div class="slide">
-                <img class="banner-img" href="ghost-game.html" src="/img/loja-icons/ghost-banner.png"
-                    alt="Banner Image 1">
+                <img class="banner-img" href="ghost-game.html" src="/img/loja-icons/ghost-banner.png">
             </div>
             <div class="slide">
-                <img class="banner-img" src="/img/loja-icons/gtav-banner.png" alt="Banner Image 2">
+                <img class="banner-img" src="/img/loja-icons/gtav-banner.png">
             </div>
             <div class="slide">
-                <img class="banner-img" src="/img/loja-icons/cod-black-banner.png" alt="Banner Image 3">
+                <img class="banner-img" src="/img/loja-icons/cod-black-banner.png">
             </div>
-        </div>
+        </div>  
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
         <div class="dots">
@@ -60,6 +60,16 @@
     </div>
 
     <div class="product-container">
+
+        <div class="product-card">
+            <img src="/img/loja-icons/ghost.png" alt="Ghost of Tsushima Director's Cut">
+            <h2>Ghost of Tsushima Director's Cut</h2>
+            <p class="discount">11% OFF</p>
+            <p class="price">R$ 249,99</p>
+            <p class="final-price">R$ 221,99</p>
+            <button href="ghost-game.html">Comprar</button>
+        </div>
+
         <div class="product-card">
             <img src="/img/loja-icons/mk-11.png" alt="Sonic Frontiers">
             <h2>Mortal Kombat 11</h2>
@@ -165,14 +175,7 @@
             <p class="final-price">R$ 44,99</p>
             <button>Comprar</button>
         </div>
-        <div class="product-card">
-            <img src="/img/loja-icons/ghost.png" alt="Ghost of Tsushima Director's Cut">
-            <h2>Ghost of Tsushima Director's Cut</h2>
-            <p class="discount">11% OFF</p>
-            <p class="price">R$ 249,99</p>
-            <p class="final-price">R$ 221,99</p>
-            <button>Comprar</button>
-        </div>
+
         <div class="product-card">
             <img src="/img/loja-icons/gtav.png" alt="Grand Theft Auto V: Premium Online Edition">
             <h2>Grand Theft Auto V: Premium Online Edition</h2>
@@ -225,5 +228,5 @@
         </div>
     </footer>
 </body>
-
+<script src="/scripts/mobile-menu.js"></script>
 </html>

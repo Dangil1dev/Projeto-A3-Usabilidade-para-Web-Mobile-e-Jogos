@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/JetBrains+Mono);
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
 
 
 *{
@@ -37,11 +37,28 @@ nav {
     padding: 0 20px;
 }
 
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 40px; /* ajuste o tamanho conforme necessário */
+    margin-right: 10px; /* ajuste o espaçamento conforme necessário */
+}
+
 .nav-logo a {
     color: #fff;
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
+}
+
+.nav-menu-icon {
+    display: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
 }
 
 .nav-links {
@@ -77,6 +94,37 @@ nav {
 .nav-login a:hover {
     background-color: #fff;
     color: #000;
+}
+
+/* tentativa de responsividade */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .nav-menu-icon {
+        display: block;
+    }
+
+    .nav-login a:hover {
+        background-color: #fff;
+        color: #000;
+    }
 }
 /* Main */
 
