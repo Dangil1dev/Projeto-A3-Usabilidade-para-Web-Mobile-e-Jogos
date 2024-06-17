@@ -1,4 +1,4 @@
-// js carrega assim que a pagina esta totalmente carregado (sem isso o resultado e null)
+// DOMContentLoaded e um evento que garante que o script so seja carregado assim que a pagina tenha sido carregada completamente
 document.addEventListener("DOMContentLoaded", function() {
     const form = document.getElementById('forgotPasswordForm');// puxa o formulario pelo id
     const emailInput = document.getElementById('email'); // puxa o campo de entrada do email pelo id

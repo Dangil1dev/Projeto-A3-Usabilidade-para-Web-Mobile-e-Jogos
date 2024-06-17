@@ -40,22 +40,22 @@
 
     <div class="banner">
         <div class="banner-slides">
-            <div class="slide">
-                <img class="banner-img" href="ghost-game.html" src="/img/loja-icons/ghost-banner.png">
+            <div class="slide active">
+                <img class="banner-img" src="/img/loja-icons/ghost-banner.png" alt="">
             </div>
             <div class="slide">
-                <img class="banner-img" src="/img/loja-icons/gtav-banner.png">
+                <img class="banner-img" src="/img/loja-icons/gtav-banner.png" alt="">
             </div>
             <div class="slide">
-                <img class="banner-img" src="/img/loja-icons/cod-black-banner.png">
+                <img class="banner-img" src="/img/loja-icons/cod-black-banner.png" alt="">
             </div>
         </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <a class="prev" onclick="avancarSlides(-1)">&#10094;</a>
+        <a class="next" onclick="avancarSlides(1)">&#10095;</a>
         <div class="dots">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot active" onclick="slideAtual(1)"></span>
+            <span class="dot" onclick="slideAtual(2)"></span>
+            <span class="dot" onclick="slideAtual(3)"></span>
         </div>
     </div>
 

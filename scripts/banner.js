@@ -4,19 +4,19 @@ let slideIndex = 1;
 showSlides(slideIndex);
 
 // funcao para avancar e voltar os slides
-function plusSlides(n) {
-    // atualiza o slideIndex para o proximo ou anterior slide
-    showSlides(slideIndex += n);
+function avancarSlides(n) {
+    // atualiza o banner para o proximo ou anterior banner
+    exibirSlides(slideIndex += n);
 }
 
-// funcao para definir o slide atual
-function currentSlide(n) {
+// funcao para definir o banner atual
+function slideAtual(n) {
     // define o slideIndex para o slide especificado
-    showSlides(slideIndex = n);
+    exibirSlides(slideIndex = n);
 }
 
 // funcao para mostrar os slides
-function showSlides(n) {
+function exibirSlides(n) {
     let i;
     // obtem todos os elementos com a classe ~slide~ que tem na loja.html
     let slides = document.getElementsByClassName("slide");
