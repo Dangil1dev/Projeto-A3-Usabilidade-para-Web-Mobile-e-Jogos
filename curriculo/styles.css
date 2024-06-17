@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    padding: 20px;
+}
+
+.left {
+    flex: 0 0 auto; /* Removendo a largura fixa */
+    background-color: #334355;
+    color: #f2f2f2;
+    padding: 20px;
+    
+}
+
+.icon {
+    width: auto; /* Definindo a largura automatica */
+    height: 20px;
+    margin-right: 10px; /* Espaço à direita da imagem */
+    align-self: center; /* Alinhamento vertical */
+    vertical-align: middle; /* Remover espaçamento embaixo da imagem */
+    
+}
+.left strong {
+    line-height: 20px; /* Igual à altura da imagem */
+    align-self: center; /* Alinhamento vertical para o texto */
+}
+
+.profile-title, .skills-title, .education-title, .work-title {
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.contato-center {
+    text-align: center;
+}
+
+.foto1 {
+    display: inline-block; /* Permite centralizar horizontalmente */
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%
+}
+
+.links {
+    color: white;
+}
+
+.linksg a {
+    color: white;
+    text-decoration: none; /* Remover sublinhado dos links */
+}
+
+.foto12 {
+    border-radius: 50%
+}
+
+.textofoto {
+    text-align: center;
+}
